@@ -81,3 +81,9 @@ npm run dev
 
 4. Start worker
 npm run worker
+
+# Deployment
+
+### Backend Live URL
+https://eternabackendassignment-production.up.railway.app
+
