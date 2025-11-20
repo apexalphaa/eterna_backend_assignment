@@ -16,16 +16,19 @@
     "ioredis": "^5.3.0",
     "pg": "^8.11.0",
     "uuid": "^9.0.0",
+    
     "ws": "^8.18.3"
   },
-  "devDependencies": {
+ "devDependencies": {
     "@types/jest": "^30.0.0",
     "@types/node": "^20.19.25",
     "@types/uuid": "^9.0.8",
     "@types/ws": "^8.18.1",
-    "jest": "^29.7.0",
+    "jest": "^30.2.0",
     "ts-jest": "^29.4.5",
+    "ts-node": "^10.9.1",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.2.0"
-  }
+}
+
 }
