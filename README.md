@@ -43,4 +43,41 @@ Manages **multiple concurrent orders**.
 
 ### Execution Lifecycle  
 Each order emits:
+pending
+routing
+building
+submitted
+confirmed
 
+### Project Structure
+src/
+api/
+orders.controller.ts
+services/
+dex/
+dexRouter.ts
+mockDexRouter.ts
+queue.service.ts
+workers/
+order.worker.ts
+ws/
+socketManager.ts
+utils/
+sleep.ts
+server.ts
+tests/
+engine.test.ts
+
+### How to Run Locally
+
+1. Start Redis
+docker-compose up -d
+
+2. Install dependencies
+npm install
+
+3. Start API + WS server
+npm run dev
+
+4. Start worker
+npm run worker
